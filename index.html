@@ -16,6 +16,7 @@
         }
         h1, h2, h3, h4 {
             font-family: 'Manrope', sans-serif;
+            font-weight: 800;
         }
         .hero-section {
             background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.9)), url('https://i.imgur.com/CBDkiHG.jpeg');
@@ -32,7 +33,7 @@
             color: #ffffff;
             box-shadow: 0 4px 20px rgba(255, 60, 0, 0.4);
             transition: all 0.3s ease-in-out;
-            font-weight: 600;
+            font-weight: 700;
             font-size: 1.25rem;
             padding: 1rem 2.5rem;
         }
@@ -206,10 +207,11 @@
             font-size: 5rem;
             line-height: 1;
             color: #ffffff;
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.2);
         }
         .price-info-text {
             font-family: 'Manrope', sans-serif;
-            font-weight: 500;
+            font-weight: 700;
             font-size: 1.25rem;
             color: #a0a0a0;
             margin-top: 0.5rem;
@@ -226,6 +228,7 @@
             align-items: center;
             gap: 1rem;
             font-size: 1.125rem;
+            font-weight: 700; /* Texto dos benefícios em negrito */
         }
         .benefit-item .icon {
             color: #FF3C00;
@@ -242,7 +245,7 @@
             padding: 0.25rem 0.5rem;
             border-radius: 9999px;
             font-size: 0.75rem;
-            font-weight: 600;
+            font-weight: 700;
         }
     </style>
 </head>
@@ -255,14 +258,14 @@
             <img src="https://i.imgur.com/NVyHhUt.png" alt="Logo GAP Experience" class="w-48 md:w-64 mx-auto mb-8 animate-pulse-once">
             
             <!-- Selo de Escassez -->
-            <div class="bg-[#FF3C00] text-white font-bold py-2 px-6 rounded-full text-lg md:text-xl inline-block mb-8 shadow-lg animate-pulse">
+            <div class="bg-[#FF3C00] text-white font-extrabold py-2 px-6 rounded-full text-lg md:text-xl inline-block mb-8 shadow-lg animate-pulse">
                 APENAS 12 VAGAS RESTANTES
             </div>
             <h1 class="text-4xl md:text-6xl font-extrabold leading-tight mb-4 text-white">
                 <span class="text-gradient">A maior imersão do Norte para donos de barbearia</span>
             </h1>
-            <h2 class="text-lg md:text-2xl font-light mb-12 text-[#cccccc] max-w-3xl mx-auto">
-                Aprenda a gestão que pode multiplicar o faturamento da sua barbearia com Ricardo Feitoza (Mr. Feitoza Barber Shop – 5 unidades e R$ 3,8M/ano).
+            <h2 class="text-lg md:text-2xl font-bold mb-12 text-[#cccccc] max-w-3xl mx-auto">
+                Aprenda a **gestão** que pode **multiplicar o faturamento** da sua barbearia com **Ricardo Feitoza** (Mr. Feitoza Barber Shop – 5 unidades e R$ 3,8M/ano).
             </h2>
             <a href="https://wa.me/5592984567476?text=Ol%C3%A1!%20Tenho%20interesse%20e%20queria%20mais%20informa%C3%A7%C3%B5es%2C%20por%20favor." target="_blank" class="cta-button inline-block rounded-full">
                 QUERO GARANTIR MINHA VAGA
@@ -274,16 +277,14 @@
     <section class="bg-[#0c0c0c] text-[#ffffff] py-16 md:py-24 relative z-10 -mt-16 rounded-3xl shadow-xl mx-4 md:mx-auto max-w-5xl">
         <div class="container mx-auto px-4 flex flex-col md:flex-row items-center gap-8 md:gap-16">
             <div class="w-full md:w-1/2">
-                <!-- Imagem substituindo o placeholder de vídeo -->
                 <img src="https://i.imgur.com/TEZiKZq.jpeg" alt="Ricardo Feitoza palestrando no evento" class="w-full h-auto object-cover rounded-2xl shadow-2xl">
             </div>
             <div class="w-full md:w-1/2">
-                <h3 class="text-3xl md:text-4xl font-bold mb-4">Sobre o Evento</h3>
-                <ul class="space-y-4 text-lg text-[#cccccc] list-disc list-inside">
-                    <li>Evento presencial em Manaus (Quality Hotel)</li>
-                    <li>Dias 5 e 6 de outubro</li>
-                    <li>2 dias intensivos de gestão, alta performance e cultura</li>
-                    <li>Experiência premium com Coffee Break, almoço e networking inclusos</li>
+                <h3 class="text-3xl md:text-4xl font-extrabold mb-4">Sobre o Evento</h3>
+                <ul class="space-y-4 text-lg text-[#cccccc] font-semibold list-disc list-inside">
+                    <li>**Evento presencial** em Manaus (Quality Hotel)</li>
+                    <li>**2 dias intensivos** de gestão, alta performance e cultura</li>
+                    <li>**Experiência premium** com Coffee Break, almoço e networking inclusos</li>
                 </ul>
             </div>
         </div>
@@ -295,32 +296,32 @@
     <!-- Bloco 3 - Para quem é -->
     <section class="py-16 md:py-24">
         <div class="container mx-auto px-4 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold mb-12">Para quem é o GAP Experience?</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12">Para quem é o GAP Experience?</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 max-w-6xl mx-auto">
                 <div class="card p-8 flex flex-col items-center">
                     <svg class="w-16 h-16 mb-4 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                    <h4 class="text-xl font-bold mb-2 text-white">Donos de Barbearia</h4>
-                    <p class="text-gray-400">que querem crescer, lucrar mais e se destacar no mercado.</p>
+                    <h4 class="text-xl font-extrabold mb-2 text-white">Donos de Barbearia</h4>
+                    <p class="text-gray-400 font-medium">que querem **crescer, lucrar mais** e se destacar no mercado.</p>
                 </div>
                 <div class="card p-8 flex flex-col items-center">
                     <svg class="w-16 h-16 mb-4 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 17.93c-3.95-.49-7-3.85-7-7.93 0-4.38 3.6-7.89 8-7.93v7.93h-1z"/></svg>
-                    <h4 class="text-xl font-bold mb-2 text-white">Gestores</h4>
-                    <p class="text-gray-400">que precisam de estratégias para organizar equipe e finanças.</p>
+                    <h4 class="text-xl font-extrabold mb-2 text-white">Gestores</h4>
+                    <p class="text-gray-400 font-medium">que precisam **organizar equipe e finanças**.</p>
                 </div>
                 <div class="card p-8 flex flex-col items-center">
                     <svg class="w-16 h-16 mb-4 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zM12 6c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6z"/><circle cx="12" cy="12" r="4"/><path d="M12 16c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0-2c-1.1 0-2-.9-2-2s.9-2 2-2 2 .9 2 2-.9 2-2 2z"/></svg>
-                    <h4 class="text-xl font-bold mb-2 text-white">Barbeiros visionários</h4>
-                    <p class="text-gray-400">que desejam abrir sua própria barbearia de forma sólida e lucrativa.</p>
+                    <h4 class="text-xl font-extrabold mb-2 text-white">Barbeiros visionários</h4>
+                    <p class="text-gray-400 font-medium">que querem **abrir sua própria barbearia** de forma sólida.</p>
                 </div>
                 <div class="card p-8 flex flex-col items-center">
                     <svg class="w-16 h-16 mb-4 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 5.9c1.16 0 2.1.94 2.1 2.1s-.94 2.1-2.1 2.1c-1.16 0-2.1-.94-2.1-2.1s.94-2.1 2.1-2.1zm0 9c2.97 0 6.1 1.46 6.1 2.1v1.1h-12.2v-1.1c0-.64 3.13-2.1 6.1-2.1zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-3.95-.49-7-3.85-7-7.93 0-4.38 3.6-7.89 8-7.93v7.93h-1zm0-16c-3.95-.49-7-3.85-7-7.93 0-4.38 3.6-7.89 8-7.93v7.93h-1z"/></svg>
-                    <h4 class="text-xl font-bold mb-2 text-white">Líderes de Equipe</h4>
-                    <p class="text-gray-400">que buscam aprimorar a liderança e a performance do time.</p>
+                    <h4 class="text-xl font-extrabold mb-2 text-white">Líderes de Equipe</h4>
+                    <p class="text-gray-400 font-medium">que buscam aprimorar a **liderança e a performance** do time.</p>
                 </div>
                 <div class="card p-8 flex flex-col items-center">
                     <svg class="w-16 h-16 mb-4 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 12c-1.66 0-3-1.34-3-3s1.34-3 3-3 3 1.34 3 3-1.34 3-3 3zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>
-                    <h4 class="text-xl font-bold mb-2 text-white">Profissionais Autônomos</h4>
-                    <p class="text-gray-400">que querem estruturar seu negócio para crescer e escalar.</p>
+                    <h4 class="text-xl font-extrabold mb-2 text-white">Profissionais Autônomos</h4>
+                    <p class="text-gray-400 font-medium">que querem **estruturar seu negócio** para crescer e escalar.</p>
                 </div>
             </div>
         </div>
@@ -332,42 +333,42 @@
     <!-- Bloco 4 - O que você vai aprender -->
     <section class="bg-[#0c0c0c] text-[#ffffff] py-16 md:py-24 rounded-xl shadow-lg mx-4 md:mx-auto max-w-5xl">
         <div class="container mx-auto px-4 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold mb-12">O que você vai aprender na imersão</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12">O que você vai aprender na imersão</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 gap-8 text-left max-w-4xl mx-auto">
                 <div class="space-y-4">
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-                        <p class="text-lg">Gestão Financeira e Precificação</p>
+                        <p class="text-lg font-bold">Gestão Financeira e Precificação</p>
                     </div>
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
-                        <p class="text-lg">Contabilidade & Jurídico para barbearias</p>
+                        <p class="text-lg font-bold">Contabilidade & Jurídico para barbearias</p>
                     </div>
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15H9v-2h2v2zm0-4H9v-2h2v2zm0-4H9V7h2v2z"/></svg>
-                        <p class="text-lg">Experiência do Cliente e Retenção</p>
+                        <p class="text-lg font-bold">Experiência do Cliente e Retenção</p>
                     </div>
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2.92 14.88c-.39.39-1.02.39-1.41 0-.39-.39-.39-1.02 0-1.41L10.59 12 7.67 9.09c-.39-.39-.39-1.02 0-1.41s1.02-.39 1.41 0L12 10.59l2.92-2.92c.39-.39 1.02-.39 1.41 0s.39 1.02 0 1.41L13.41 12l2.92 2.92c.39.39.39 1.02 0 1.41s-1.02.39-1.41 0L12 13.41l-2.92 2.92z"/></svg>
-                        <p class="text-lg">Metas, Bonificações & Campanhas</p>
+                        <p class="text-lg font-bold">Metas, Bonificações & Campanhas</p>
                     </div>
                 </div>
                 <div class="space-y-4">
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-6h2v6zm0-8h-2V7h2v2z"/></svg>
-                        <p class="text-lg">Performance, KPIs e rotinas de alta performance</p>
+                        <p class="text-lg font-bold">Performance, KPIs e rotinas de alta performance</p>
                     </div>
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 14H4V6h16v12zM6 8h4v8H6z"/></svg>
-                        <p class="text-lg">Marketing & Vendas (com especialistas)</p>
+                        <p class="text-lg font-bold">Marketing & Vendas (com especialistas)</p>
                     </div>
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M14 2H6c-1.1 0-1.99.9-1.99 2L4 20c0 1.1.89 2 1.99 2H18c1.1 0 2-.9 2-2V8l-6-6zM6 20V4h7v5h5v11H6z"/></svg>
-                        <p class="text-lg">Estudo de Caso real da Mr. Feitoza</p>
+                        <p class="text-lg font-bold">Estudo de Caso real da Mr. Feitoza</p>
                     </div>
                     <div class="flex items-start gap-4">
                         <svg class="w-6 h-6 flex-shrink-0 mt-1 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M19 3h-1V1h-2v2H8V1H6v2H5c-1.11 0-1.99.9-1.99 2L3 19c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 16H5V8h14v11zM7 10h5v5H7z"/></svg>
-                        <p class="text-lg">Plano de Ação 90 dias</p>
+                        <p class="text-lg font-bold">Plano de Ação 90 dias</p>
                     </div>
                 </div>
             </div>
@@ -381,27 +382,27 @@
     <section class="py-16 md:py-24 relative rounded-t-3xl shadow-xl overflow-hidden">
         <div class="absolute inset-0 bg-[url('https://imgur.com/K9IrKJw')] bg-cover bg-center opacity-20"></div>
         <div class="container mx-auto px-4 relative z-10 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold mb-12">Uma Experiência de Alto Nível</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12">Uma Experiência de Alto Nível</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-4xl mx-auto">
                 <div class="flex items-center gap-4 p-4 rounded-xl hover:bg-white hover:bg-opacity-10 transition-colors duration-300">
                     <svg class="w-6 h-6 text-[#FF3C00]" viewBox="0 0 24 24" fill="currentColor"><path d="M18 10h-2V6H6v4H4v7h14v-7zM6 15v-3h12v3H6zm14-10.48c.11-.27.17-.55.17-.88 0-.55-.45-1-1-1H5c-.55 0-1 .45-1 1 0 .33.06.61.17.88L5 5.5V6h14v-.5z"/></svg>
-                    <p class="text-xl font-medium">Coffee Break incluso</p>
+                    <p class="text-xl font-bold">Coffee Break incluso</p>
                 </div>
                 <div class="flex items-center gap-4 p-4 rounded-xl hover:bg-white hover:bg-opacity-10 transition-colors duration-300">
                     <svg class="w-6 h-6 text-[#FF3C00]" viewBox="0 0 24 24" fill="currentColor"><path d="M21 5H3c-1.1 0-2 .9-2 2v10c0 1.1.9 2 2 2h18c1.1 0 2-.9 2-2V7c0-1.1-.9-2-2-2zm-1.5 5.5c-.83 0-1.5-.67-1.5-1.5s.67-1.5 1.5-1.5 1.5.67 1.5 1.5-.67 1.5-1.5 1.5zM12 16H8v-2h4v2zM12 12H8v-2h4v2zm6 4h-4v-2h4v2z"/></svg>
-                    <p class="text-xl font-medium">Almoço incluso</p>
+                    <p class="text-xl font-bold">Almoço incluso</p>
                 </div>
                 <div class="flex items-center gap-4 p-4 rounded-xl hover:bg-white hover:bg-opacity-10 transition-colors duration-300">
                     <svg class="w-6 h-6 text-[#FF3C00]" viewBox="0 0 24 24" fill="currentColor"><path d="M20 6h-8c-1.1 0-2 .9-2 2v8c0 1.1.9 2 2 2h8c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm-1 8h-6v-2h6v2z"/></svg>
-                    <p class="text-xl font-medium">Brindes exclusivos</p>
+                    <p class="text-xl font-bold">Brindes exclusivos</p>
                 </div>
                 <div class="flex items-center gap-4 p-4 rounded-xl hover:bg-white hover:bg-opacity-10 transition-colors duration-300">
                     <svg class="w-6 h-6 text-[#FF3C00]" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-1 15h2v-2h-2v2zm0-4h2V7h-2v6z"/></svg>
-                    <p class="text-xl font-medium">Hot Seat – perguntas direto com os mentores</p>
+                    <p class="text-xl font-bold">Hot Seat – perguntas direto com os mentores</p>
                 </div>
                 <div class="flex items-center gap-4 p-4 rounded-xl hover:bg-white hover:bg-opacity-10 transition-colors duration-300">
                     <svg class="w-6 h-6 text-[#FF3C00]" fill="currentColor" viewBox="0 0 24 24"><path d="M12 4c-4.41 0-8 3.59-8 8s3.59 8 8 8 8-3.59 8-8-3.59-8-8-8zm0 14c-3.31 0-6-2.69-6-6s2.69-6 6-6 6 2.69 6 6-2.69 6-6 6z"/><circle cx="12" cy="12" r="3.5"/></svg>
-                    <p class="text-xl font-medium">Foto oficial e confraternização</p>
+                    <p class="text-xl font-bold">Foto oficial e confraternização</p>
                 </div>
             </div>
         </div>
@@ -413,35 +414,35 @@
     <!-- Bloco 6 - Palestrantes -->
     <section class="bg-[#0c0c0c] text-[#ffffff] py-16 md:py-24">
         <div class="container mx-auto px-4 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold mb-12">Conheça os Palestrantes</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12">Conheça os Palestrantes</h3>
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
                 <!-- Card 1 -->
                 <div class="card p-6 flex flex-col items-center">
                     <img src="https://i.imgur.com/TEZiKZq.jpeg" alt="Ricardo Feitoza" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover profile-image">
-                    <h4 class="text-xl font-bold text-white">Ricardo Feitoza</h4>
-                    <p class="text-sm text-gray-400 font-semibold mb-2">Gestão e Cultura</p>
-                    <p class="text-gray-400 text-sm">Fundador da Mr. Feitoza Barber Shop, com mais de 10 anos de experiência em gestão e escalabilidade de negócios.</p>
+                    <h4 class="text-xl font-extrabold text-white">Ricardo Feitoza</h4>
+                    <p class="text-sm text-gray-400 font-bold mb-2">Gestão e Cultura</p>
+                    <p class="text-gray-400 text-sm font-medium">Fundador da Mr. Feitoza Barber Shop, com mais de 10 anos de experiência em gestão e escalabilidade de negócios.</p>
                 </div>
                 <!-- Card 2 -->
                 <div class="card p-6 flex flex-col items-center">
                     <img src="https://i.imgur.com/G5YP9cj.jpeg" alt="Pablo Henrique" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover profile-image">
-                    <h4 class="text-xl font-bold text-white">Pablo Henrique</h4>
-                    <p class="text-sm text-gray-400 font-semibold mb-2">Performance e Equipe</p>
-                    <p class="text-gray-400 text-sm">Especialista em alta performance, ajuda equipes a atingirem resultados extraordinários com metodologias ágeis.</p>
+                    <h4 class="text-xl font-extrabold text-white">Pablo Henrique</h4>
+                    <p class="text-sm text-gray-400 font-bold mb-2">Performance e Equipe</p>
+                    <p class="text-gray-400 text-sm font-medium">Especialista em alta performance, ajuda equipes a atingirem resultados extraordinários com metodologias ágeis.</p>
                 </div>
                 <!-- Card 3 -->
                 <div class="card p-6 flex flex-col items-center">
                     <img src="https://i.imgur.com/OyXrUDA.jpeg" alt="Luiz Eduardo Leal" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover profile-image">
-                    <h4 class="text-xl font-bold text-white">Luiz Eduardo Leal</h4>
-                    <p class="text-sm text-gray-400 font-semibold mb-2">Marketing para Barbearias</p>
-                    <p class="text-gray-400 text-sm">Referência em marketing digital, com foco em estratégias de atração e fidelização de clientes para barbearias.</p>
+                    <h4 class="text-xl font-extrabold text-white">Luiz Eduardo Leal</h4>
+                    <p class="text-sm text-gray-400 font-bold mb-2">Marketing para Barbearias</p>
+                    <p class="text-gray-400 text-sm font-medium">Referência em marketing digital, com foco em estratégias de atração e fidelização de clientes para barbearias.</p>
                 </div>
                 <!-- Card 4 -->
                 <div class="card p-6 flex flex-col items-center">
                     <img src="https://i.imgur.com/tqL72Xk.jpeg" alt="Rafael Amorim" class="rounded-full w-32 h-32 mx-auto mb-4 object-cover profile-image">
-                    <h4 class="text-xl font-bold text-white">Rafael Amorim</h4>
-                    <p class="text-sm text-gray-400 font-semibold mb-2">Vendas Estratégicas</p>
-                    <p class="text-gray-400 text-sm">Consultor de vendas com expertise em converter oportunidades em fechamentos de alto valor.</p>
+                    <h4 class="text-xl font-extrabold text-white">Rafael Amorim</h4>
+                    <p class="text-sm text-gray-400 font-bold mb-2">Vendas Estratégicas</p>
+                    <p class="text-gray-400 text-sm font-medium">Consultor de vendas com expertise em converter oportunidades em fechamentos de alto valor.</p>
                 </div>
             </div>
         </div>
@@ -450,41 +451,41 @@
     <!-- Separador de Seção -->
     <div class="section-divider"></div>
 
-    <!-- Bloco 7 - Investimento (Novo Design Premium com a Copy da Furion) -->
+    <!-- Bloco 7 - Investimento -->
     <section id="investimento" class="py-16 md:py-24 text-white">
         <div class="price-container">
-            <h3 class="text-3xl md:text-4xl font-bold mb-4 text-center">Invista na sua transformação</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-4 text-center">Invista na sua **transformação**</h3>
             <div class="price-inner-card">
                 <div class="flex justify-center items-baseline mb-4">
-                    <p class="price-installments-text">12x de</p>
-                    <p class="price-text-value">R$ 249,75</p>
+                    <p class="price-installments-text font-extrabold">12x de</p>
+                    <p class="price-text-value font-extrabold">R$ 249,75</p>
                 </div>
-                <p class="price-info-text text-center mb-6">ou R$ 2.997,00 à vista</p>
+                <p class="price-info-text text-center mb-6 font-bold">ou **R$ 2.997,00** à vista</p>
                 
                 <a href="https://link.infinitepay.io/isaias_bezerra_de_souzaa/VC1D-6Gc8u6FUPJ-2997,00" target="_blank" class="cta-button inline-block rounded-full w-full">
-                    QUERO GARANTIR MINHA VAGA AGORA
+                    **QUERO GARANTIR MINHA VAGA AGORA**
                 </a>
                 
                 <ul class="benefits-list">
                     <li class="benefit-item">
                         <svg class="w-6 h-6 included" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
-                        <p>Acesso completo à imersão presencial de 2 dias</p>
+                        <p>Acesso completo à **imersão presencial de 2 dias**</p>
                     </li>
                     <li class="benefit-item">
                         <svg class="w-6 h-6 included" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
-                        <p>Material de apoio e plano de ação de 90 dias</p>
+                        <p>Material de apoio e **plano de ação de 90 dias**</p>
                     </li>
                     <li class="benefit-item">
                         <svg class="w-6 h-6 included" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
-                        <p>Acesso vitalício à comunidade exclusiva</p>
+                        <p>Acesso vitalício à **comunidade exclusiva**</p>
                     </li>
                     <li class="benefit-item">
                         <svg class="w-6 h-6 included" fill="currentColor" viewBox="0 0 24 24"><path d="M9 16.2L4.8 12l-1.4 1.4L9 19 21 7l-1.4-1.4L9 16.2z"/></svg>
-                        <p>Coffee Break, Almoço e Brindes Exclusivos</p>
+                        <p>**Coffee Break, Almoço e Brindes Exclusivos**</p>
                     </li>
                     <li class="benefit-item">
                         <svg class="w-6 h-6 bonus" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zM9 17l-4-4 1.41-1.41L9 14.17 17.59 5.59 19 7l-10 10z"/></svg>
-                        <p>Sessão de Hot Seat com os mentores <span class="value-tag">BÔNUS</span></p>
+                        <p>**Sessão de Hot Seat** com os mentores <span class="value-tag">BÔNUS</span></p>
                     </li>
                 </ul>
             </div>
@@ -497,15 +498,14 @@
     <!-- Bloco 8 - Prova Social -->
     <section class="py-16 md:py-24">
         <div class="container mx-auto px-4 text-center">
-            <h3 class="text-3xl md:text-4xl font-bold mb-12">O que nossos mentorados dizem</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12">O que nossos **mentorado**s dizem</h3>
             <div class="flex flex-col md:flex-row items-center justify-center gap-8">
                 <div class="w-full md:w-1/2 relative aspect-video bg-[#1a1a1a] rounded-2xl overflow-hidden shadow-xl">
-                    <!-- Imagem substituindo o placeholder de vídeo -->
-                    <img src=[url('https://imgur.com/p2RVnMk')] alt="Foto de depoimento de um mentorado" class="w-full h-full object-cover opacity-80">
+                    <img src="https://imgur.com/p2RVnMk" alt="Foto de depoimento de um mentorado" class="w-full h-full object-cover opacity-80">
                 </div>
                 <div class="w-full md:w-1/2 text-left space-y-4">
-                    <blockquote class="text-2xl font-semibold italic text-[#cccccc] leading-snug">
-                        “Apliquei a metodologia GAP e em 3 meses dobrei meu faturamento. A imersão mudou a forma como eu vejo meu negócio.”
+                    <blockquote class="text-2xl font-bold italic text-[#cccccc] leading-snug">
+                        “Apliquei a metodologia GAP e em **3 meses dobrei meu faturamento**. A imersão mudou a forma como eu vejo meu negócio.”
                     </blockquote>
                     <p class="font-bold text-[#cccccc]">– João Silva, Barbearia Estilo Urbano</p>
                 </div>
@@ -519,46 +519,46 @@
     <!-- Bloco 9 - FAQ -->
     <section class="bg-[#0c0c0c] text-[#ffffff] py-16 md:py-24 rounded-xl shadow-lg mx-4 md:mx-auto max-w-5xl">
         <div class="container mx-auto px-4">
-            <h3 class="text-3xl md:text-4xl font-bold mb-12 text-center">Perguntas Frequentes</h3>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-12 text-center">**Perguntas Frequentes**</h3>
             <div class="max-w-3xl mx-auto space-y-4">
                 <!-- Item FAQ 1 -->
                 <div class="faq-item card rounded-xl p-6 shadow-md">
                     <div class="flex justify-between items-center">
-                        <h4 class="font-bold text-lg">O evento é online ou presencial?</h4>
+                        <h4 class="font-extrabold text-lg">O evento é online ou presencial?</h4>
                         <span class="text-2xl font-bold rotate-icon">+</span>
                     </div>
                     <div class="faq-answer mt-4 text-[#cccccc]">
-                        O GAP Experience é um evento 100% presencial, focado em uma experiência imersiva e de alto networking para os participantes. Será realizado em Manaus.
+                        O GAP Experience é um evento **100% presencial**, focado em uma experiência imersiva e de **alto networking** para os participantes. Será realizado em Manaus.
                     </div>
                 </div>
                 <!-- Item FAQ 2 -->
                 <div class="faq-item card rounded-xl p-6 shadow-md">
                     <div class="flex justify-between items-center">
-                        <h4 class="font-bold text-lg">Tem garantia?</h4>
+                        <h4 class="font-extrabold text-lg">Tem garantia?</h4>
                         <span class="text-2xl font-bold rotate-icon">+</span>
                     </div>
                     <div class="faq-answer mt-4 text-[#cccccc]">
-                        Sim. A sua satisfação é a nossa prioridade. Caso você participe dos dois dias de evento e não sinta que o conteúdo irá impactar seu negócio, você pode solicitar a devolução integral do seu investimento.
+                        Sim. A sua satisfação é a nossa prioridade. Caso você participe dos dois dias de evento e **não sinta que o conteúdo irá impactar seu negócio**, você pode solicitar a **devolução integral do seu investimento**.
                     </div>
                 </div>
                 <!-- Item FAQ 3 -->
                 <div class="faq-item card rounded-xl p-6 shadow-md">
                     <div class="flex justify-between items-center">
-                        <h4 class="font-bold text-lg">O que está incluso no ingresso?</h4>
+                        <h4 class="font-extrabold text-lg">O que está incluso no ingresso?</h4>
                         <span class="text-2xl font-bold rotate-icon">+</span>
                     </div>
                     <div class="faq-answer mt-4 text-[#cccccc]">
-                        O ingresso inclui acesso completo aos dois dias de evento, material de apoio, Coffee Break, almoço no local, e uma sessão de Hot Seat para perguntas diretas aos mentores.
+                        O ingresso inclui **acesso completo aos dois dias de evento**, material de apoio, **Coffee Break, almoço no local, e uma sessão de Hot Seat** para perguntas diretas aos mentores.
                     </div>
                 </div>
                 <!-- Item FAQ 4 -->
                 <div class="faq-item card rounded-xl p-6 shadow-md">
                     <div class="flex justify-between items-center">
-                        <h4 class="font-bold text-lg">Preciso já ser dono de barbearia?</h4>
+                        <h4 class="font-extrabold text-lg">Preciso já ser dono de barbearia?</h4>
                         <span class="text-2xl font-bold rotate-icon">+</span>
                     </div>
                     <div class="faq-answer mt-4 text-[#cccccc]">
-                        Não, a imersão é para todos os que querem se aprofundar em gestão, incluindo barbeiros que sonham em abrir o próprio negócio e gestores que buscam melhorar a performance da equipe.
+                        Não, a imersão é para **todos os que querem se aprofundar em gestão**, incluindo barbeiros que sonham em abrir o próprio negócio e gestores que buscam melhorar a performance da equipe.
                     </div>
                 </div>
             </div>
@@ -571,11 +571,11 @@
     <!-- Bloco 10 - CTA Final (rodapé) -->
     <section class="bg-[#000000] text-[#ffffff] py-16 md:py-24 text-center rounded-xl shadow-lg mx-4 md:mx-auto max-w-5xl">
         <div class="container mx-auto px-4">
-            <h3 class="text-3xl md:text-4xl font-bold mb-6">
-                <span class="text-gradient">Última chance: só 12 vagas disponíveis para a maior imersão de gestão de barbearias do Norte!</span>
+            <h3 class="text-3xl md:text-4xl font-extrabold mb-6">
+                <span class="text-gradient">Última chance: só **12 vagas disponíveis** para a **maior imersão de gestão de barbearias do Norte**!</span>
             </h3>
             <a href="https://wa.me/5592984567476?text=Ol%C3%A1!%20Tenho%20interesse%20e%20queria%20mais%20informa%C3%A7%C3%B5es%2C%20por%20favor." target="_blank" class="cta-button inline-block rounded-full mt-8">
-                GARANTIR MINHA VAGA NO WHATSAPP
+                **GARANTIR MINHA VAGA NO WHATSAPP**
             </a>
         </div>
     </section>
